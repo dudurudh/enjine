@@ -357,6 +357,11 @@ footer .nj {
   color:#1F689D;
 }
 
+.twitter-share-button{
+  content: "/f099";
+  color:#1F689D;
+  font-family: FontAwesome;
+}
 .fa-linkedin {
   color:#1F689D;
 }
