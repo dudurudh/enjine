@@ -365,11 +365,96 @@ footer .nj {
 .fa-linkedin {
   color:#1F689D;
 }
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #1B8BCF;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -2;
+}
+
+#active-date {
+  border-top: 3px solid #FF0000;
+  border-bottom: 3px solid #FF0000;
+  border-left: 3px solid #FF0000;
+  border-right: 3px solid #FF0000;
+}
+
+.dot-class {
+  margin-top:-12px;
+  left: 0;
+}
+
+
+.column-4 {
+  border-top: 1px solid #B2B2B2;
+  float: left;
+  width: 25%;
+}
+.column-5 {
+  border-top: 1px solid #B2B2B2;
+  float: left;
+  width: 20%;
+}
+
+.column-5 p{
+  padding-right: 1rem;
+}
+.fin{
+  border-top: 0px solid #000000;
+}
+.row-cust{
+  margin-left: 5%;
+}
+/* Clear floats after the columns */
+.row-cust:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @media (max-width: 768px) {
+  .column-4 {
+    width: 100%;
+    border-left: 1px solid #B2B2B2;
+    border-top: 0px solid #B2B2B2;
+  }
+  .column-5 {
+    width: 100%;
+    border-left: 1px solid #B2B2B2;
+    border-top: 0px solid #B2B2B2;
+  }
+  .dot-class{
+    margin-left:-12px;
+  }
+  .column-4 p{
+    margin-top:-30px;
+    left: 0;
+    margin-left: 35px;
+    margin-bottom: 2rem;
+  }
+  .column-5 p{
+    margin-top:-30px;
+    left: 0;
+    margin-left: 35px;
+    margin-bottom: 2rem;
+  }
   .contact-info{
     margin-left: 0px;
     text-align:center;
+  }
+  .fin{
+    border-left: 0px solid #000000;
   }
 .overview-section{
   margin-top: 10%;
@@ -420,6 +505,12 @@ footer .nj {
   }
 
 @media (max-width: 576px) {
+  .column-4 {
+    width: 100%;
+  }
+  .column-5 {
+    width: 100%;
+  }
   .contact-info{
     margin-left: 0px;
     text-align:center;
@@ -826,12 +917,6 @@ h6, .h6 {
   line-height: 1.2;
 }
 
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
 
 small,
 .small {
