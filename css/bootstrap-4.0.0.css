@@ -251,7 +251,9 @@ footer .nj {
 .overview-section{
   margin-top: 5%;
 }
-
+.summary-section{
+  margin-top: 5%;
+}
 
 .text-box h2{
   padding-left: 3%;
@@ -280,7 +282,7 @@ footer .nj {
   padding-right: 3%;
 }
 .text-section {
-  width: 80%;
+  width: 100%;
   margin-left: 5%;
 }
 .timeline-heading .text-section h2{
@@ -294,7 +296,6 @@ footer .nj {
 .contact-info{
   padding-right:5%;
   margin-top: -20px;
-  margin-left: -20px;
 }
 
 #accordion .card{
@@ -360,6 +361,85 @@ footer .nj {
   color:#1F689D;
 }
 
+@media (max-width: 768px) {
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+.overview-section{
+  margin-top: 10%;
+}
+.summary-section{
+  margin-top: 10%;
+}
+.share-icons{
+  margin-left: 0px;
+  text-align:center;
+}
+.timeline-heading {
+  margin-left: 0px;
+  text-align:center;
+}
+.timeline-heading .text-section h2{
+  padding-left: 0%;
+}
+.text-section {
+  margin-left: 0%;
+}
+}
+@media (max-width: 1200px) {
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .overview-section{
+    margin-top: 10%;
+  }
+  .summary-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .timeline-heading {
+    margin-left: 0px;
+    text-align:center;
+  }
+  .timeline-heading .text-section h2{
+    padding-left: 0%;
+  }
+  .text-section {
+    margin-left: 0%;
+  }
+  }
+
+@media (max-width: 576px) {
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .overview-section{
+    margin-top: 15%;
+  }
+  .summary-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center
+  }
+  .timeline-heading {
+    margin-left: 0px;
+    text-align:center;
+  }
+  .timeline-heading .text-section h2{
+    padding-left: 0%;
+  }
+  .text-section {
+    margin-left: 0%;
+  }
+  }
 
 /* bootstrap css begins*/
 html {
