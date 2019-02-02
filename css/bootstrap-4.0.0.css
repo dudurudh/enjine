@@ -143,6 +143,34 @@ header.nj .statewide .drop #google_translate_element {
 .goog-te-combo.form-control {
   max-height: 2.125rem;
 }
+footer.footer {
+  background: #0066cc;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+}
+
+.footer a:link,
+.footer a:focus,
+.footer a:visited {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+footer.nj {
+  background: #333;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+footer .nj {
+  background-color: #333;
+  color: #fff;
+}
 
 /* top banner section*/
 .hero-img {
@@ -187,6 +215,9 @@ header.nj .statewide .drop #google_translate_element {
 .text-green {
   color: #609E09;
 }
+.text-blue{
+  color:#1F689D;
+}
 
 .custom-button {
   color: #fff;
@@ -201,6 +232,129 @@ header.nj .statewide .drop #google_translate_element {
   width:100%;
   justify-content: center;
 }
+
+.text-box {
+  width: 90%;
+  background-color:#ffffff;
+  margin-left: 5%;
+}
+.summary-text-box {
+  width: 90%;
+  background-color:#ffffff;
+  margin-left: 5%;
+}
+.overview-section{
+  margin-top: 5%;
+}
+
+
+.text-box h2{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  font-weight:600;
+}
+.text-box p{
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+}
+
+.summary-text-box h2{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  font-weight:600;
+}
+.summary-text-box p{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.summary-text-box li{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.text-section {
+  width: 80%;
+  margin-left: 5%;
+}
+.timeline-heading .text-section h2{
+  padding-left: 1%;
+}
+.text-section h2{
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: 600;
+}
+.contact-info{
+  padding-right:5%;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+#accordion .card{
+  margin-left: 6%;
+}
+
+.card-header h4{
+  color:#000000;
+  font-weight: 600;
+}
+.card-header a{
+  color:#000000;
+}
+.card-header a:hover{
+  color:#000000;
+}
+.card-header .fas {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fas {
+  transform: rotate(45deg);
+}
+.acc-icon{
+  color: #609E09;
+  margin-right: 0.5em;
+}
+.card{
+  width:90%;
+  margin-left: 5%;
+  padding: 0.25rem;
+}
+.share-icons p{
+    color:#1F689D;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.fa {
+  padding: 20px 20px 20px 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color:#1F689D;
+}
+
+/* Twitter */
+.fa-twitter {
+  color:#1F689D;
+}
+
+.fa-linkedin {
+  color:#1F689D;
+}
+
 
 /* bootstrap css begins*/
 html {
@@ -4598,13 +4752,13 @@ tbody.collapse.show {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0rem;
 }
 
 .card > hr {
   margin-right: 0;
-  margin-left: 0;
+
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
@@ -4625,7 +4779,7 @@ tbody.collapse.show {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0rem;
 }
 
 .card-subtitle {
@@ -4648,8 +4802,8 @@ tbody.collapse.show {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 0px solid rgba(255, 255, 255, 0);
 }
 
 .card-header:first-child {
