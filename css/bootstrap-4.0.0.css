@@ -255,7 +255,7 @@ footer .nj {
   margin-top: 5%;
 }
 
-.text-box h2{
+.text-box h3{
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 3%;
@@ -267,7 +267,7 @@ footer .nj {
   padding-right: 3%;
 }
 
-.summary-text-box h2{
+.summary-text-box h3{
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 3%;
@@ -415,6 +415,7 @@ hr {
 }
 .row-cust{
   margin-left: 5%;
+  width: 75%;
 }
 /* Clear floats after the columns */
 .row-cust:after {
